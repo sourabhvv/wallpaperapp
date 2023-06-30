@@ -6,7 +6,7 @@ This is a simple wallpaper website built using HTML, CSS, and JavaScript. It all
 
 ## Demo
 
-You can see a live demo of the wallpaper website [here](https://example.com).
+You can see a live demo of the wallpaper website [here](https://sourabhvv.github.io/wallpaperapp/#About).
 
 ## Installation
 
