@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}  
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px 86px;
+    
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: rgb(254, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(81, 182, 230, 0.2), 0 6px 20px 0 rgba(9, 13, 22, 0.19);
+}
+.topnav a:hover {
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: rgb(255, 251, 251);
+  }
+  
+  .topnav a.active {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  .text1{
+    margin-top: -400px;
+    margin-left: 40px;
+      
+  }
+  .text1 ,h1{
+      font-size: 45px;
+      font-weight: 100;
+
+  }
+
+  .hd{
+      cursor: pointer;
+      background-color: rgb(254, 255, 255);
+      
+      padding: 12px 16px;
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: white;
+     
+      cursor: pointer;
+      margin-left: 0;
+      overflow: hidden;
+      border-radius: 4px;
+  }
+  .text1,p{
+      font-size: 20px;
+     font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .phone img{
+      
+      box-shadow: 0 4px 8px 0 rgba(81, 182, 230, 0.2), 0 6px 20px 0 rgba(9, 13, 22, 0.19);
+      border-radius: 88px;
+  }
+  .phone img{
+      width: 300px;
+      margin-top: 100px;
+      margin-left: 700px;
+  }
+
+ /* Style the buttons */
+/* #myBtnContainer{
+     background-color: aqua;
+ } */
+
+ .btns button{
+     margin-left: 1000px;
+     display: inline;
+     border: none;
+     outline: none;
+     padding: 12px 16px;
+    background-color: white;
+    padding:.75rem; ;
+    cursor: pointer;
+    
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(254, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(81, 182, 230, 0.2), 0 6px 20px 0 rgba(9, 13, 22, 0.19);
+    
+ }
+ button{
+     margin-left: -3px;
+     margin: 3px;
+ }
+ button:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:white;
+ }
+ button.active{
+    background-color:#fb5283;
+    color: white;
+ }
+.btn {
+    background-color: aqua;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    padding:.75rem; ;
+    cursor: pointer;
+    margin-left: 150px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(254, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(81, 182, 230, 0.2), 0 6px 20px 0 rgba(9, 13, 22, 0.19);
+  }
+  
+  .btn:hover {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:white;
+  }
+  
+  .btn.active {
+    background-color:#fb5283;
+    color: white;
+  }    
+
+/* for text in gallery */ 
+
+.txt1{
+    text-align: center;
+}
+.txt1 h1{
+    font-weight: 300;
+}
+.txt1 p{
+    font-size: 17px;
+    font-weight: 150;
+}
+
+
+/* for images i gallery*/
+/* Center website */
+#gallery{
+    box-sizing: border-box;
+}
+#gallery{
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+
+
+
+  /* third section style */
+    /* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+
+  /* style social medial logo */
+  .ins  {
+    margin-left: 640px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.ins p{
+    margin-left: -20px;
+    font-weight: 700;
+}
+.ins img {
+  box-shadow:  0 4px 8px 0 rgba(255, 141, 137, 0.856), 0 6px 20px 0 rgba(8, 78, 230, 0.19);
+  border-radius: 9px;
+}
