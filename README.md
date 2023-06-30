@@ -1,6 +1,7 @@
 # Wallpaper Website
 
 This is a simple wallpaper website built using HTML, CSS, and JavaScript. It allows users to browse and download wallpapers for their desktop or mobile devices.
+![image](wallpaperApp.png)
 
 
 
